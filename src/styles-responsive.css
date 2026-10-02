@@ -1,0 +1,779 @@
+/* Layout overrides are intentionally layered after base styles via the second import in main.tsx. */
+@media (min-width: 1600px) {
+  main {
+    padding: 44px 48px 22px;
+  }
+  .topbar {
+    padding: 0 48px;
+  }
+  .metric-card {
+    padding: 25px;
+  }
+  .metric-value {
+    font-size: 34px;
+  }
+  .card-heading h2 {
+    font-size: 17px;
+  }
+  .metric-top {
+    font-size: 12px;
+  }
+  .card-heading p {
+    font-size: 11px;
+  }
+  .metric-bottom {
+    font-size: 10px;
+  }
+  .metric-bottom .change {
+    font-size: 10px;
+  }
+  .product-label,
+  .product-label > span {
+    font-size: 11px;
+  }
+  .product-list small {
+    font-size: 9px;
+  }
+  .product-list li {
+    margin-bottom: 20px;
+  }
+  .channel-list li,
+  .channel-list strong {
+    font-size: 12px;
+  }
+  table,
+  .customer-cell strong {
+    font-size: 12px;
+  }
+  th,
+  .customer-cell small {
+    font-size: 10px;
+  }
+  .status-badge {
+    font-size: 10px;
+  }
+  .chart-legend,
+  .chart-legend button {
+    font-size: 10px;
+  }
+  .chart-summary {
+    padding-top: 27px;
+  }
+  .donut-wrap {
+    max-width: 235px;
+  }
+}
+@media (max-width: 1200px) {
+  .sidebar {
+    width: 208px;
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+  .main-shell {
+    margin-left: 208px;
+  }
+  .topbar {
+    padding: 0 25px;
+  }
+  main {
+    padding: 30px 25px 18px;
+  }
+  .brand {
+    font-size: 31px;
+  }
+  .workspace-caption {
+    font-size: 7px;
+  }
+  .nav-item {
+    font-size: 11px;
+  }
+  .metrics-grid {
+    gap: 12px;
+  }
+  .metric-card {
+    padding: 17px 14px;
+  }
+  .metric-value {
+    font-size: 25px;
+  }
+  .metric-bottom {
+    font-size: 7px;
+    gap: 4px;
+  }
+  .metric-top {
+    font-size: 9px;
+  }
+  .metric-top svg {
+    width: 16px;
+  }
+  .chart-summary {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .chart-legend {
+    align-self: flex-end;
+  }
+  .charts-grid,
+  .bottom-grid {
+    grid-template-columns: minmax(0, 1.7fr) minmax(240px, 1fr);
+    gap: 16px;
+  }
+  .bottom-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .products-card .product-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px 30px;
+  }
+  .product-list li {
+    margin: 0;
+  }
+  .products-card .product-list li:last-child {
+    grid-column: 1 / -1;
+    max-width: 48%;
+  }
+  .page-heading h1 {
+    font-size: 24px;
+  }
+  .page-heading p {
+    font-size: 10px;
+  }
+  .eyebrow {
+    font-size: 7px;
+  }
+  .heading-actions .button {
+    font-size: 10px;
+    padding: 8px 10px;
+  }
+  .toast {
+    left: calc(50% + 104px);
+  }
+  .report-grid {
+    gap: 14px;
+  }
+  .report-card {
+    padding: 20px;
+  }
+  .report-card h2 {
+    font-size: 15px;
+  }
+  .report-preview dd {
+    font-size: 20px;
+  }
+  .channel-list {
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+  .channel-list li {
+    gap: 8px;
+  }
+  .settings-grid {
+    grid-template-columns: minmax(0, 1.3fr) minmax(0, 1fr);
+  }
+}
+@media (max-width: 1000px) {
+  .sidebar {
+    width: 190px;
+    padding-left: 11px;
+    padding-right: 11px;
+  }
+  .main-shell {
+    margin-left: 190px;
+  }
+  .workspace-caption {
+    font-size: 6px;
+    letter-spacing: 0.7px;
+  }
+  .workspace-switch {
+    padding: 10px 7px;
+    gap: 7px;
+  }
+  .workspace-initials {
+    width: 27px;
+    height: 27px;
+  }
+  .workspace-switch select {
+    font-size: 11px;
+  }
+  .sidebar-note {
+    padding: 12px 10px;
+  }
+  .sidebar-note > span {
+    font-size: 8px;
+  }
+  .sidebar-profile strong {
+    font-size: 8px;
+  }
+  .sidebar-profile small {
+    font-size: 7px;
+  }
+  .page-heading {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+  }
+  .heading-actions {
+    margin-top: 0;
+  }
+  .metrics-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .metric-card {
+    padding: 20px;
+  }
+  .metric-value {
+    font-size: 29px;
+  }
+  .metric-top {
+    font-size: 11px;
+  }
+  .metric-bottom {
+    font-size: 9px;
+  }
+  .charts-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .channel-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .channel-card .card-heading {
+    grid-column: 1 / -1;
+  }
+  .donut-wrap {
+    width: 200px;
+    max-width: 100%;
+  }
+  .channel-list {
+    margin-top: 25px;
+  }
+  .date-range {
+    display: none;
+  }
+  .topbar-actions {
+    gap: 13px;
+  }
+  .global-search kbd {
+    margin-left: 5px;
+  }
+  .app-footer {
+    align-items: flex-start;
+    gap: 10px;
+    flex-direction: column;
+  }
+  .report-grid {
+    grid-template-columns: 1fr;
+  }
+  .report-card {
+    gap: 12px;
+  }
+  .report-preview dl {
+    grid-template-columns: 1fr 1fr;
+  }
+  .settings-grid {
+    grid-template-columns: 1fr;
+  }
+  .settings-aside {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .toast {
+    left: calc(50% + 95px);
+    max-width: calc(100vw - 230px);
+  }
+  .section-banner + .card .card-heading {
+    flex-wrap: wrap;
+  }
+  .section-banner + .card .search-field {
+    width: 100%;
+  }
+}
+@media (max-width: 760px) {
+  .sidebar {
+    display: none;
+  }
+  .main-shell {
+    margin-left: 0;
+  }
+  .mobile-menu {
+    display: inline-flex;
+  }
+  .topbar {
+    height: 65px;
+    padding: 0 20px;
+  }
+  .breadcrumb {
+    gap: 10px;
+  }
+  .breadcrumb-workspace,
+  .breadcrumb-slash {
+    display: none;
+  }
+  .topbar-actions {
+    gap: 13px;
+  }
+  .global-search span,
+  .global-search kbd {
+    display: none;
+  }
+  .global-search {
+    padding: 9px;
+    min-width: 34px;
+    min-height: 34px;
+  }
+  .topbar-divider {
+    display: none;
+  }
+  .topbar-avatar {
+    width: 29px;
+    height: 29px;
+  }
+  .topbar .icon-button {
+    min-width: 35px;
+    min-height: 35px;
+  }
+  main {
+    padding: 25px 20px 25px;
+  }
+  .page-heading {
+    gap: 17px;
+    margin-bottom: 23px;
+  }
+  .page-heading h1 {
+    font-size: 27px;
+  }
+  .page-heading p {
+    font-size: 11px;
+  }
+  .eyebrow {
+    font-size: 7px;
+    letter-spacing: 1.5px;
+  }
+  .heading-actions .button {
+    min-height: 38px;
+    font-size: 11px;
+  }
+  .heading-actions {
+    width: 100%;
+  }
+  .heading-actions .primary {
+    margin-left: auto;
+  }
+  .filters-bar {
+    align-items: center;
+    gap: 8px;
+  }
+  .filter-controls {
+    gap: 7px;
+  }
+  .filter-control {
+    padding: 0 8px;
+    gap: 6px;
+  }
+  .filter-control select {
+    font-size: 9px;
+    padding-right: 3px;
+    min-height: 36px;
+  }
+  .filter-control svg {
+    width: 14px;
+  }
+  .refresh-button {
+    font-size: 0;
+    gap: 0;
+    min-width: 30px;
+    min-height: 36px;
+    justify-content: center;
+  }
+  .refresh-button svg {
+    margin: 0;
+    width: 17px;
+    height: 17px;
+  }
+  .fresh-dot {
+    display: none;
+  }
+  .metrics-grid {
+    gap: 11px;
+    margin-bottom: 17px;
+  }
+  .metric-card {
+    padding: 17px;
+  }
+  .metric-value {
+    font-size: 26px;
+    margin: 16px 0;
+  }
+  .metric-top {
+    font-size: 10px;
+  }
+  .metric-bottom {
+    font-size: 7.5px;
+    gap: 5px;
+  }
+  .change {
+    font-size: 8px;
+  }
+  .charts-grid {
+    gap: 17px;
+    margin-bottom: 17px;
+  }
+  .card-heading {
+    padding: 19px 18px 0;
+    gap: 10px;
+  }
+  .card-heading h2 {
+    font-size: 14px;
+  }
+  .card-heading p {
+    font-size: 9px;
+  }
+  .chart-summary {
+    padding: 20px 18px 5px;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 12px;
+  }
+  .chart-summary > strong {
+    font-size: 23px;
+  }
+  .chart-legend {
+    font-size: 8px;
+    align-self: center;
+  }
+  .chart-legend button {
+    font-size: 8px;
+  }
+  .chart-wrap {
+    padding: 10px 10px 0 1px;
+  }
+  .chart-wrap svg {
+    min-height: 160px;
+  }
+  .chart-data {
+    margin-left: 18px;
+    margin-right: 18px;
+  }
+  .channel-card .card-heading {
+    padding-bottom: 8px;
+  }
+  .donut-wrap {
+    width: 180px;
+  }
+  .channel-list {
+    margin: 20px 18px 18px 0;
+  }
+  .channel-list li {
+    font-size: 9px;
+    gap: 5px;
+  }
+  .channel-list strong {
+    font-size: 9px;
+  }
+  .channel-list small {
+    font-size: 8px;
+  }
+  .channel-list i {
+    height: 6px;
+    width: 6px;
+  }
+  .insight-strip {
+    padding: 15px;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+  .insight-strip strong {
+    font-size: 10px;
+  }
+  .insight-strip p {
+    font-size: 9px;
+  }
+  .insight-strip a {
+    margin-left: auto;
+    font-size: 9px;
+  }
+  .goal-track {
+    min-width: 70px;
+    max-width: 120px;
+    margin-left: 45px;
+  }
+  .bottom-grid {
+    gap: 17px;
+  }
+  .recent-card .card-heading {
+    align-items: flex-start;
+  }
+  .text-link {
+    font-size: 9px;
+  }
+  .recent-card table {
+    min-width: 480px;
+  }
+  .products-card .product-list {
+    display: block;
+    margin: 22px 18px;
+  }
+  .products-card .product-list li {
+    margin-bottom: 20px;
+  }
+  .products-card .product-list li:last-child {
+    max-width: none;
+    margin-bottom: 0;
+  }
+  .product-label,
+  .product-label > span {
+    font-size: 10px;
+  }
+  .product-list small {
+    font-size: 8px;
+  }
+  .product-bar {
+    height: 5px;
+  }
+  .app-footer {
+    font-size: 8px;
+    line-height: 1.8;
+  }
+  .method-note {
+    font-size: 9px;
+  }
+  .demo-indicator {
+    right: 15px;
+  }
+  .toast {
+    left: 50%;
+    width: calc(100vw - 30px);
+    max-width: 540px;
+    font-size: 11px;
+  }
+  .sales-card .card-heading {
+    flex-wrap: wrap;
+  }
+  .table-toolbar {
+    padding: 0 18px 20px;
+    flex-wrap: wrap;
+  }
+  .table-toolbar .search-field {
+    width: 100%;
+  }
+  .table-toolbar .status-filter {
+    margin-left: auto;
+  }
+  .sales-table {
+    min-width: 790px;
+  }
+  .sales-table td {
+    padding-top: 14px;
+    padding-bottom: 14px;
+  }
+  .pagination {
+    padding: 14px 18px;
+    flex-wrap: wrap;
+    font-size: 10px;
+  }
+  .pagination > div {
+    margin-left: auto;
+  }
+  .section-banner {
+    padding: 20px;
+    gap: 12px;
+  }
+  .section-banner h2 {
+    font-size: 15px;
+  }
+  .section-banner p {
+    font-size: 10px;
+  }
+  .banner-icon {
+    height: 40px;
+    width: 40px;
+  }
+  .section-banner + .card table {
+    min-width: 680px;
+  }
+  .report-preview dl {
+    padding: 23px 18px;
+    gap: 25px 18px;
+  }
+  .report-preview dd {
+    font-size: 22px;
+  }
+  .settings-aside {
+    display: flex;
+  }
+  .settings-body {
+    padding: 25px 18px;
+  }
+  .theme-options {
+    gap: 7px;
+  }
+  .theme-options label {
+    padding: 13px 5px;
+    font-size: 9px;
+  }
+  .theme-options svg {
+    width: 16px;
+  }
+  .accent-options {
+    gap: 7px;
+  }
+  .accent-options label {
+    font-size: 9px;
+    padding: 7px;
+  }
+  .dialog {
+    padding: 22px;
+    max-height: 90dvh;
+  }
+  .dialog-header h2 {
+    font-size: 19px;
+  }
+  .form-grid {
+    gap: 12px;
+  }
+  .dialog-actions {
+    flex-wrap: wrap;
+  }
+  .detail-total strong {
+    font-size: 25px;
+  }
+  .mobile-navigation .nav-item {
+    font-size: 13px;
+  }
+  .mobile-navigation .workspace-caption {
+    font-size: 8px;
+  }
+  .mobile-navigation .workspace-switch select {
+    font-size: 13px;
+  }
+  .mobile-navigation .workspace-initials {
+    width: 34px;
+    height: 34px;
+  }
+  .mobile-navigation .nav-section-label {
+    font-size: 10px;
+  }
+  .mobile-navigation .brand {
+    font-size: 33px;
+  }
+}
+@media (max-width: 380px) {
+  main {
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+  .topbar {
+    padding: 0 14px;
+  }
+  .page-heading h1 {
+    font-size: 24px;
+  }
+  .metric-card {
+    padding: 14px 11px;
+  }
+  .metric-value {
+    font-size: 24px;
+  }
+  .metric-top {
+    font-size: 9px;
+  }
+  .metric-bottom {
+    font-size: 7px;
+    gap: 3px;
+  }
+  .metric-top svg {
+    width: 14px;
+  }
+  .filter-control {
+    gap: 4px;
+    padding: 0 7px;
+  }
+  .filter-control select {
+    font-size: 8px;
+  }
+  .chart-legend {
+    gap: 10px;
+  }
+  .channel-list {
+    margin-right: 12px;
+  }
+  .channel-list li > span {
+    gap: 5px;
+  }
+  .channel-list li {
+    flex-wrap: wrap;
+  }
+  .channel-list small {
+    display: none;
+  }
+  .donut-wrap {
+    width: 155px;
+  }
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+  .detail-list > div {
+    flex-direction: column;
+    gap: 8px;
+  }
+  .detail-list dd {
+    text-align: left;
+  }
+  .accent-options label {
+    font-size: 8px;
+    gap: 4px;
+  }
+  .report-preview dd {
+    font-size: 20px;
+  }
+  .goal-track {
+    max-width: 80px;
+  }
+  .insight-strip a {
+    margin-left: 0;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+@media print {
+  .sidebar,
+  .topbar,
+  .heading-actions,
+  .filters-bar,
+  .app-footer,
+  .demo-indicator,
+  .toast {
+    display: none;
+  }
+  .main-shell {
+    margin: 0;
+  }
+  main {
+    padding: 0;
+  }
+  .card,
+  .metric-card {
+    break-inside: avoid;
+    box-shadow: none;
+  }
+  .metrics-grid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .chart-wrap svg {
+    width: 100%;
+  }
+  body {
+    background: white;
+    color: black;
+  }
+}

@@ -1,0 +1,168 @@
+/* Keep secondary information readable and contain positioned table labels. */
+.table-scroll {
+  position: relative;
+}
+.muted-legend {
+  opacity: 1;
+  text-decoration: line-through;
+}
+.metric-top,
+.filter-control select,
+.card-heading p,
+.channel-list li,
+.channel-list strong,
+.product-label,
+.product-label > span,
+.button,
+.nav-item {
+  font-size: 12px;
+}
+.metric-bottom,
+.change,
+.chart-legend,
+.chart-legend button,
+.chart-data,
+.channel-list small,
+.product-list small,
+.product-rank,
+.method-note,
+.app-footer,
+.status-badge,
+.customer-cell small,
+.date-range,
+.text-link,
+.small-tag,
+.refresh-button {
+  font-size: 10px;
+}
+table,
+.customer-cell strong,
+.sales-table {
+  font-size: 12px;
+}
+th,
+.sales-table th button {
+  font-size: 11px;
+}
+.breadcrumb,
+.global-search {
+  font-size: 12px;
+}
+.workspace-caption {
+  font-size: 8px;
+}
+.sidebar-note > span,
+.sidebar-note p,
+.sidebar-note a {
+  font-size: 11px;
+}
+.sidebar-profile strong {
+  font-size: 10px;
+}
+.sidebar-profile small {
+  font-size: 9px;
+}
+.product-list li {
+  margin-bottom: 19px;
+}
+.chart-legend {
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+.metric-bottom {
+  white-space: normal;
+  flex-wrap: wrap;
+}
+.metric-bottom > span:last-child {
+  font-size: 9px;
+}
+.product-label strong {
+  white-space: normal;
+}
+@media (max-width: 760px) {
+  .metric-top {
+    font-size: 11px;
+  }
+  .metric-value {
+    font-size: 25px;
+  }
+  .metric-card {
+    padding: 17px 13px;
+  }
+  .metric-bottom {
+    gap: 4px;
+  }
+  .metric-bottom > span:last-child {
+    font-size: 8px;
+  }
+  .filter-control select {
+    font-size: 10px;
+  }
+  .filter-control {
+    padding: 0 7px;
+    gap: 6px;
+  }
+  .refresh-button {
+    font-size: 0;
+  }
+  .chart-summary {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 14px;
+  }
+  .chart-legend {
+    align-self: flex-end;
+    font-size: 9px;
+  }
+  .chart-legend button {
+    font-size: 9px;
+  }
+  .chart-wrap svg {
+    min-height: 210px;
+  }
+  .card-heading p {
+    font-size: 11px;
+  }
+  .channel-list li,
+  .channel-list strong {
+    font-size: 10px;
+  }
+  .channel-list small {
+    font-size: 9px;
+  }
+  .product-label,
+  .product-label > span {
+    font-size: 12px;
+  }
+  .product-list small {
+    font-size: 10px;
+  }
+  .form-stack input,
+  .form-stack select,
+  .settings-body input:not([type='radio']),
+  .search-field input {
+    font-size: 16px;
+    min-height: 44px;
+  }
+  .form-stack label,
+  .settings-body label {
+    font-size: 12px;
+  }
+  .button {
+    min-height: 40px;
+    font-size: 12px;
+  }
+  .app-footer {
+    font-size: 9px;
+  }
+  .section-banner h2 {
+    font-size: 16px;
+  }
+  .section-banner p {
+    font-size: 12px;
+  }
+  .settings-aside p,
+  .report-card p {
+    font-size: 13px;
+  }
+}
